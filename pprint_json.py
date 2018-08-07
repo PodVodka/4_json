@@ -24,4 +24,4 @@ if __name__ == '__main__':
     except FileNotFoundError:
         sys.exit('Файл не найден')
     except ValueError:
-        sys.exit('в файле нет данных JSON')
+        sys.exit('В файле нет данных JSON')
