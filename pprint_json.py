@@ -1,6 +1,5 @@
 import json
 import sys
-#python pprint_json.py alko.json
 
 
 def load_data(filepath):
