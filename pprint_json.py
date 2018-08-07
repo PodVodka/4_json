@@ -12,7 +12,7 @@ def load_data(filepath):
 
 def pretty_print_json(info_pprint):
     pretty_json = json.dumps(info_pprint, indent=4, sort_keys=True, ensure_ascii=False)
-    return(pretty_json)
+    return pretty_json
 
 
 if __name__ == '__main__':
